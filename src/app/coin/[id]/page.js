@@ -41,9 +41,7 @@ export default function CoinPage() {
               developer_data: false,
               sparkline: false,
             },
-            headers: {
-              "x-cg-demo-api-key": process.env.NEXT_PUBLIC_COINGECKO_API_KEY,
-            },
+           
           }
         );
         
@@ -55,9 +53,7 @@ export default function CoinPage() {
               vs_currency: currency,
               days: timeRange,
             },
-            headers: {
-              "x-cg-demo-api-key": process.env.NEXT_PUBLIC_COINGECKO_API_KEY,
-            },
+            
           }
         );
 
